@@ -35,7 +35,7 @@ function stop_ani() {
 	 document.getElementById("radio-13").style.animationPlayState = "paused";
 	 document.getElementById("radio-14").style.animationPlayState = "paused";
 	 document.getElementById("radio-15").style.animationPlayState = "paused";
-	 setTimeout(restart_ani, 2000); 
+	 setTimeout(restart_ani, 3000); 
 }
 
 for (var i = 0 ; i < btn.length; i++) {

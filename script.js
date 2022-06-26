@@ -66,4 +66,29 @@ function Loading_off(){
 
 window.addEventListener("load", Loading_off)
 
+if( window.outerWidth <= 1080 &&  window.outerWidth >= 960) {
+	var products_logo = document.querySelectorAll(".products .product-content img");
+	var products_line = document.querySelectorAll(".products .product-content hr");
+  var products_header = document.querySelectorAll(".products .product-content h2");
+  var products_btns = document.querySelectorAll(".products .product-content a button");
 
+	for (var j = products_logo.length - 1; j >= 0; j--) {
+		products_logo[j].style.width = "48px";
+		products_logo[j].style.height = "48px";
+	}
+
+	for (var i = products_header.length - 1; i >= 0; i--) {
+		products_header[i].style.fontSize = "18px"
+
+	}
+
+	for (var i = products_line.length - 1; i >= 0; i--) {
+		products_line[i].style.height = "1px"
+	}
+
+	for (var i = products_btns.length - 1; i >= 0; i--) {
+		products_btns[i].style.fontSize = "10px"
+		products_btns[i].style.padding = "5px 20px"
+	}
+
+}

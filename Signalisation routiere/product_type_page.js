@@ -8,7 +8,7 @@ if( window.outerWidth <= 1080 &&  window.outerWidth >= 960) {
 }
 
 
-if( window.outerWidth >= 400 &&  window.outerWidth <= 600  ) {
+if( window.outerWidth <= 1080 &&  window.outerWidth >= 960) {
 	
 	productSection.style.gridTemplateRows = "repeat(2, 200px)";
 	productSection.style.gridTemplateColumns ="repeat(4, 200px)";
@@ -32,5 +32,9 @@ function stop_ani() {
 	 document.getElementById("radio-2").style.animationPlayState = "paused";
 	 document.getElementById("radio-3").style.animationPlayState = "paused";
 	 document.getElementById("radio-4").style.animationPlayState = "paused";
-	 setTimeout(restart_ani, 2000); 
+	 setTimeout(restart_ani, 3000); 
 }
+
+for (var i = 0 ; i < btn.length; i++) {
+   btn[i].addEventListener('mouseover', stop_ani)
+};

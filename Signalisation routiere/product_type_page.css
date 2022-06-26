@@ -216,22 +216,25 @@
 	align-items: center;
 	overflow: hidden;
 
+
 }
 
 .products .product-content {
+	padding: 5px;
 	width: 100%;
 	height: 100%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	background: rgba(0, 0, 0, .3);
-	display: none;
+	background: rgba(0, 0, 0, .45);
+	opacity: 0;
+	transition: 0.2s ease-in-out;
 	
 }
 
 .products:hover > .product-content {
-	display: flex;
+	opacity: 1;
 }
 
 .products .product-content img {
@@ -292,15 +295,116 @@
 	font-size: 42px;
 	color: #383434;
 	font-weight: 700;
-	margin-left: 60px;
+	margin-bottom: 10px;
 }
 
 #products-container-header-line {
 	background: #383434;
 	color: #383434;
-	width: 425px;
+	width: 445px;
 	border: 2px solid #383434;
 	margin-bottom: 5px;
-	margin-left: 50px;
+
+}
+
+#form-container {
+	width: 100%;
+	padding: 25px;
+	background: #F7E5E4;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+
+}
+
+#form-container-header {
+	font-size: 32px;
+	color: #383434;
+	font-weight: 800;
+	margin-left: 10px;
+	margin-bottom: 40px;
+}
+
+
+#form-container form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.form-item:not(:last-child) {
+	margin-bottom: 20px;
+}
+
+#form-container form input{
+	padding: 5px 15px;
+	height: 45px;
+	width: 270px;
+	border-radius: 5px;
+	background: #F7E5E4;
+	font-weight: 500;
+}
+
+#form-container form input:not(#produit) {
+	border: none;
+	border-bottom: 1px solid #985FFD;
+
+}
+
+
+#form-container form  label {
+	font-size: 18px;
+	margin-bottom: 10px;
+	transform: translateX(-5px);
+}
+
+#form-container form  button {
+	padding: 8px 15px;
+	font-size: 18px;
+	transform: translateX(10px);
+}
+
+::-webkit-scrollbar-thumb {
+	background: #fff;
+	border-radius: 3px;
+}
+
+#form-container form textarea {
+	padding: 15px;
+	height: 135px;
+	width: 315px;
+	transform: translateX(-5px);
+	font-size: 14x;
+	border-radius: 5px;
+	resize: none;
+}
+
+#form-container form textarea::-webkit-scrollbar {
+	width: 3px;
+	background: #fff;
+}
+
+#form-container form textarea::-webkit-scrollbar-thumb {
+	background: #a83968;
+	border-radius: 3px;
+	border: none;
+}
+
+
+
+#form-container form input:focus {
+	outline: none;
+	border-bottom: 1px solid #985FFD;
+
+}
+
+
+#produit {
+	background: #f1e5f3;
+	border: none;
+	border-bottom: 1px solid #000;
 
 }
