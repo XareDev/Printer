@@ -48,7 +48,7 @@ var circle = document.getElementsByClassName("circle")
 var circle_image = document.querySelectorAll(".circle img");
 
 if( window.outerWidth <= 1080 &&  window.outerWidth >= 960) {
-	productSection.style.gridTemplateRows = "repeat(5, 200px)";
+	productSection.style.gridTemplateRows = "repeat(4, 200px)";
 	productSection.style.gridTemplateColumns ="repeat(4, 200px)";
 	for (var i = circle_image.length - 1; i >= 0; i--) {
 		circle_image[i].style.maxWidth = "64px"
