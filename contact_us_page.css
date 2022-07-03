@@ -16,7 +16,12 @@ header{
 	align-items: center;
 	margin-bottom: 15px;
 	flex-direction: column;
+	border-left: 3px solid white;
 	transform: translateY(-30px);
+}
+
+#phone-number {
+	border-left: 3px solid white;
 }
 
 #socials ul {
@@ -58,10 +63,21 @@ header{
 	font-size: 24px;
 }
 
-footer {
-	padding-top: 15px;
+#phone-number ul {
+	transform: translateX(0);
 }
 
+#phone-number-header {
+	transform: translateX(0);
+}
+
+#location-header {
+	transform: translateX(0);
+}
+
+#location ul {
+	transform: translateX(0);
+}
 
 #form-container {
 	width: 100%;
