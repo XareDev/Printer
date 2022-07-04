@@ -1,0 +1,48 @@
+#about-container-header {
+	font-size: 32px;
+	color: #383434;
+	font-weight: 700;
+	margin-left: 60px;
+	margin-bottom: 5px;
+}
+
+#about-container-header-line {
+	background: #383434;
+	color: #383434;
+	width: 275px;
+	border: 1px solid #383434;
+	margin-bottom: 5px;
+	margin-left: 50px;
+	border-radius: 25px;
+
+}
+
+header{
+	background: #111010;
+	position: static;
+	margin-bottom: 25px;
+
+}
+
+#about-content {
+	margin: 20px 0 50px 0;
+	width: 100%;
+	padding: 15px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#about-us-text {
+	width: 90%;
+	 font-size: 18px;
+	 line-height: 1.5em;
+	 color: #777;
+}
+
+#about-us-logo {
+	margin-bottom: 20px;
+	width: 192px;
+	height: 192px;
+}

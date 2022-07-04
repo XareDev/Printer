@@ -44,6 +44,8 @@ function scrollFunction() {
 			};
 		}
 
+		 document.getElementById("header").style.position = "static";
+
   }
 }
 
