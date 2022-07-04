@@ -1,6 +1,6 @@
 text = document.getElementById("about-us-text")
 header = document.getElementById("about-container-header")
-line = document.getElementsById("about-container-header-line")
+line = document.getElementById("about-container-header-line")
 logo = document.getElementById("about-us-logo")
 
 if( window.outerWidth <= 600 &&  window.outerWidth >= 400) {

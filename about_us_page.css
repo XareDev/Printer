@@ -17,11 +17,18 @@
 
 }
 
+#about-container {
+	background: white;
+}
+
 header{
 	background: #111010;
 	position: static;
-	margin-bottom: 25px;
 
+}
+
+section {
+	padding-top: 25px;
 }
 
 #about-content {
