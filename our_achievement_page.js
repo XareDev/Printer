@@ -111,8 +111,8 @@ if( window.outerWidth <= 1080 &&  window.outerWidth >= 400) {
 
 	fil = document.querySelector("#filter")
 
-	sec.style.height = gc.scrollHeight + 400 + "px"
-	fil.style.width = "75%"
+	sec.style.height = gc.scrollHeight + 600 + "px"
+	fil.style.width = "85%"
 } else if (window.outerWidth > 1080 &&  window.outerWidth <= 2056) {
 	sec = document.querySelector("section");
 
