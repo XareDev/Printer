@@ -1,299 +1,594 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
 	<meta charset="utf-8">
-	<link rel="shortcut icon" type="image/png" href="logo.png">
-	<meta name="description" content="ملخصات ,الموقع الأول لملخصات الطور الثانوي في الجزائر يمكنك تحميل و طباعة أكثر من 300 من أفضل الملخصات , المذكرات و الدروس الخاصة بالطور الثانوي  لجميع المواد">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="general_style.css">
-	<link rel="stylesheet" href="main_page_style.css">
+	<link rel="shortcut icon" type="image/png" href="fav-logo.png">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="main_page.css">
+	<link rel="alternate" hreflang="ar" href="index.html">
+	<link rel="alternate" hreflang="fr" href="index.html">
+	<link rel="alternate" hreflang="en" href="en/index.html">
 
 
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-215865503-1"></script>
-	<script>
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
-
-	gtag('config', 'UA-215865503-1');
-	</script>
-
-	
-
-
-	
-	<title>الموقع الأول للملخصات في الجزائر | Molakhasat</title>
-	
+	<title>Design Zine | Page D'accueil</title>	
 </head>
-
 <body>
-	<div id="loading"></div>
-	<div class="pop-up">
-
-		<div class="pop-up-body" id="Notification-popup">
-
-			<img src="logo.png" alt="Molakhasat logo" >
-
-			<div class="pop-up-header">
-				<h1>!! جديد : نظام إشعارات</h2>
-				<hr>
-			</div>
-			
-			<p>إشترك الأن مجانا في خدمة إشعاراتنا حتى يصلك كل جديد ملخصاتنا , تماريننا و تحديثاتنا فور إضافتها</p>
-			<div class="pop-up-btn-container">
-				<button class="reject" onclick="closePopUps()">.لا , شكرا </button>
-				<button class="accept" onclick="Permission()">! إشترك الأن</button>
-			</div>
-		</div>
-
-		<div id="success-popup" class="pop-up-body">
-			<img src="success.png" alt="success icon">
-			<div class="pop-up-header">
-				<h1> تمت إضافتك لقائمة الإشعارات</h1>
-				<hr>
-			</div>
-			<p>شكرا لك على إشتراكك في خدمة الإشعارات , نتمنى لك تجربة ممتعة في موقع ملخصات</p>
-			<div class="pop-up-btn-container">
-				<button class="okay" onclick="closePopUps()">! حسنا</button>
-			</div>
-		</div>
-	</div>
-
-	
-	<header>
-
-		<img src="logo.png" alt="logo" id="logo">
-		<a href="" class="cta">
-			<button>إدعمونا</button>
+	<header id="header">
+		<a href="index.html">
+			<img src="logo.png" alt="Design Zine logo" id="logo">
 		</a>
+
 		<nav>
 			<ul class="nav_links">
 
 				<li>
-					<a href="blog.html">المنتدى</a>
+					<a class="nav_items" href="index.html">Page D'accueil</a>
 				</li>
 
 				<li>
-					<a href="contact_us.html">تواصل معنا</a>
+					<a class="nav_items" href="Contactez_nous.html">Contactez Nous</a>
 				</li>
 
 				<li>
-					<a href="" id="current-page">الرئيسية</a>
+					<a class="nav_items" href="À_propos_de_nous.html">À Propos de Nous</a>
 				</li>
 
+				<li>
+					<a class="nav_items" href="Nos_réalisations.html">Nos Réalisations</a>
+				</li>
 
 			</ul>
 		</nav>
+
 		
 	</header>
 
-
-
 	<section>
+		<div id="loading"></div>
 
+		<div id="slideshow">
+
+			<div id="slide-imgs">
+
+				<div class="imgs" id="img-1">
+
+					<div class="img-content">
+						<div class="imgs-section">
+							<h1 class="section-header">Signalisation Routiere</h1>
+							<hr class="section-line">
+							<p class="section-info">Consultez nos Services de Signalisation routiere (panneaux routiere metalic , panneaux en galvanized , panneaux avec supporte , panneaux sans supporte) et plus encore sur le site Web de Design Zine </p>
+							<a href="Signalisation_routiere/index.html">
+								<button class="cta">Voir Plus</button>
+							</a>
+						</div>
+					</div>
+
+				</div>
+
+
+				<div class="imgs" id="img-2">
+
+					<div class="img-content">
+						<div class="imgs-section">
+							<h1 class="section-header">Panneaux Sécurité</h1>
+							<hr class="section-line">
+							<p class="section-info">Consultez nos Services de Panneaux Sécurité (panneaux Sécurité metalic , panneaux alucobond , panneuax plexiglass) et plus encore sur le site Web de Design Zine </p>
+							<a href="Panneaux_sécurité/index.html">
+								<button class="cta">Voir Plus</button>
+							</a>
+						</div>
+					</div>
+
+				</div>
+
+
+				<div class="imgs" id="img-3">
+					
+					<div class="img-content">
+						<div class="imgs-section">
+							<h1 class="section-header">Panneaux Publicitaire</h1>
+							<hr class="section-line">
+							<p class="section-info">Consultez nos Services de Panneaux publicitaire (panneau publicitaire metalic , panneau luminesse , panneaux en forex) et plus encore sur le site Web de Design Zine </p>
+							<a href="Panneaux_publicitaire/index.html">
+								<button class="cta">Voir Plus</button>
+							</a>
+						</div>
+					</div>
+
+				</div>
+
+
+				<div class="imgs" id="img-4">
+					
+					<div class="img-content">
+						<div class="imgs-section">
+							<h1 class="section-header">Sérigraphie</h1>
+							<hr class="section-line">
+							<p class="section-info">Consultez nos Services de Sérigraphie (sur plexi glass , sur clothese , sur autocollante , sur pp) et plus encore sur le site Web de Design Zine </p>
+							<a href="Sérigraphie/index.html">
+								<button class="cta">Voir Plus</button>
+							</a>
+						</div>
+					</div>
+					
+				</div>
+
+
+				<div class="imgs" id="img-5">
+					
+					<div class="img-content">
+						<div class="imgs-section">
+							<h1 class="section-header">Prévention de Risque Professionnel</h1>
+							<hr class="section-line">
+							<p class="section-info">Consultez nos Services de Prévention de risque professionnel (Équipement de Sécurité) et plus encore sur le site Web de Design Zine</p>
+							<a href="Prévention_de_risque_professionnel/index.html">
+								<button class="cta">Voir Plus</button>
+							</a>
+						</div>
+					</div>
+					
+				</div>
+
+
+				<div class="imgs" id="img-6">
+					
+					<div class="img-content">
+						<div class="imgs-section">
+							<h1 class="section-header">Impression Numérique</h1>
+							<hr class="section-line">
+							<p class="section-info">Consultez nos Services de Impression numérique (habillage vitrine , impression sur bache , impression grand format , stickers ,Bannieres Publicitaires) et plus encore sur le site Web de Design Zine </p>
+							<a href="Impression_numérique/index.html">
+								<button class="cta">Voir Plus</button>
+							</a>
+						</div>
+					</div>
+					
+				</div>
+
+
+				<div class="imgs" id="img-7">
+					
+					<div class="img-content">
+						<div class="imgs-section">
+							<h1 class="section-header">Impression Offset</h1>
+							<hr class="section-line">
+							<p class="section-info">Consultez nos Services de Impression numérique (livres , calendrier , agenda , bon pour) et plus encore sur le site Web de Design Zine </p>
+							<a href="Impression_offset/index.html">
+								<button class="cta">Voir Plus</button>
+							</a>
+						</div>
+					</div>
+					
+				</div>
+
+
+				<div class="imgs" id="img-8">
+					
+					<div class="img-content">
+						<div class="imgs-section">
+							<h1 class="section-header">Gravure Laser</h1>
+							<hr class="section-line">
+							<p class="section-info">Consultez nos Services de Gravure laser (découpe forex, plaque de bureau, découpe alucobond) et plus encore sur le site Web de Design Zine </p>
+							<a href="Gravure_laser/index.html">
+								<button class="cta">Voir Plus</button>
+							</a>
+						</div>
+					</div>
+					
+				</div>
+
+
+				<div class="imgs" id="img-9">
+					
+					<div class="img-content">
+						<div class="imgs-section">
+							<h1 class="section-header">Broderie</h1>
+							<hr class="section-line">
+							<p class="section-info">Consultez nos Services de Broderie et plus encore sur le site Web de Design Zine </p>
+							<a href="Broderie/index.html" class="cta">
+								<button>Voir Plus</button>
+							</a>
+						</div>
+					</div>
+					
+				</div>
+
+
+				<div class="imgs" id="img-10">
+					
+					<div class="img-content"> 
+						<div class="imgs-section">
+							<h1 class="section-header">Création Logo</h1>
+							<hr class="section-line">
+							<p class="section-info">Consultez nos Services de Création logo (Conception de Logo , Conception d'un Identité de Marque) et plus encore sur le site Web de Design Zine </p>
+							<a href="Création_logo/index.html" class="cta">
+								<button>Voir Plus</button>
+							</a>
+						</div>
+					</div>
+					
+				</div>
+
+
+				<div class="imgs" id="img-11">
+					
+					<div class="img-content">
+						<div class="imgs-section">
+							<h1 class="section-header">Développement de Sites</h1>
+							<hr class="section-line">
+							<p class="section-info">Consultez nos Services de Développement de Sites et plus encore sur le site Web de Design Zine  </p>
+							<a href="Développement_de_sites/index.html" class="cta">
+								<button>Voir Plus</button>
+							</a>
+						</div>
+					</div>
+					
+				</div>
+
+
+				<div class="imgs" id="img-12">
+					
+					<div class="img-content">
+						<div class="imgs-section">
+							<h1 class="section-header">Conception de Plan HSE</h1>
+							<hr class="section-line">
+							<p class="section-info">Consultez nos Services de Conception de plan HSE et plus encore sur le site Web de Design Zine </p>
+							<a href="Conception_de_plan_HSE/index.html" class="cta">
+								<button>Voir Plus</button>
+							</a>
+						</div>
+					</div>
+					
+				</div>
+
+				<div class="imgs" id="img-13">
+					
+					<div class="img-content">
+						<div class="imgs-section">
+							<h1 class="section-header">Découpe Numérique</h1>
+							<hr class="section-line">
+							<p class="section-info">Consultez nos Services de Découpe numérique et plus encore sur le site Web de Design Zine  </p>
+							<a href="Gravure_laser/index.html" class="cta">
+								<button>Voir Plus</button>
+							</a>
+						</div>
+					</div>
+					
+				</div>
+
+				<div class="imgs" id="img-14">
+					
+					<div class="img-content">
+						<div class="imgs-section">
+							<h1 class="section-header">Équipement de Sécurité</h1>
+							<hr class="section-line">
+							<p class="section-info">Consultez nos Produits de Équipement de sécurité et plus encore sur le site Web de Design Zine  </p>
+							<a href="Prévention_de_risque_professionnel/index.html" class="cta">
+								<button>Voir Plus</button>
+							</a>
+						</div>
+					</div>
+					
+				</div>
+
+				<div class="imgs" id="img-15">
+					
+					<div class="img-content">
+						<div class="imgs-section">
+							<h1 class="section-header">Habillage Véhicule</h1>
+							<hr class="section-line">
+							<p class="section-info">Consultez nos Services de Habillage vehicle et plus encore sur le site Web de Design Zine  </p>
+							<a href="Habillage_véhicule/index.html" class="cta">
+								<button>Voir Plus</button>
+							</a>
+						</div>
+					</div>
+					
+				</div>
+
+			</div>
+
+			<div id="slide-navigation">
+				<div id="radio-1" class="radio-btns"></div>
+				<div id="radio-2" class="radio-btns"></div>
+				<div id="radio-3" class="radio-btns"></div>
+				<div id="radio-4" class="radio-btns"></div>
+				<div id="radio-5" class="radio-btns"></div>
+				<div id="radio-6" class="radio-btns"></div>
+				<div id="radio-7" class="radio-btns"></div>
+				<div id="radio-8" class="radio-btns"></div>
+				<div id="radio-9" class="radio-btns"></div>
+				<div id="radio-10" class="radio-btns"></div>
+				<div id="radio-11" class="radio-btns"></div>
+				<div id="radio-12" class="radio-btns"></div>
+				<div id="radio-13" class="radio-btns"></div>
+				<div id="radio-14" class="radio-btns"></div>
+				<div id="radio-15" class="radio-btns"></div>
+
+			</div>
+
+
+
+			
+
+		</div>
+		<div id="products-container">
+			<h1 id="products-container-header">Nos Product</h1>
+			<hr id="products-container-header-line">
+			<div id="product-section">
+
+				<div class="products" id="product-1" >
+					<div class="product-content">
+						<img src="product-logo.png" alt="Design Zine logo" >
+						<h2>Signalisation Routiere</h2>
+						<hr>
+						<a href="Signalisation_routiere/index.html">
+							<button>Voir Plus</button>
+						</a>
+					</div>
+				</div>
+
+				<div class="products" id="product-2">
+					<div class="product-content">
+						<img src="product-logo.png" alt="Design Zine logo">
+						<h2>Panneaux Sécurité</h2>
+						<hr>
+						<a href="Panneaux_sécurité/index.html">
+							<button>Voir Plus</button>
+						</a>
+					</div>
+				</div>
+
+				<div class="products" id="product-3">
+					<div class="product-content">
+						<img src="product-logo.png" alt="Design Zine logo">
+						<h2>Panneaux Publicitaire</h2>
+						<hr>
+						<a href="Panneaux_publicitaire/index.html">
+							<button>Voir Plus</button>
+						</a>
+					</div>
+				</div>
+
+				<div class="products" id="product-4">
+					<div class="product-content">
+						<img src="product-logo.png" alt="Design Zine logo">
+						<h2>Sérigraphie</h2>
+						<hr>
+						<a href="Sérigraphie/index.html">
+							<button>Voir Plus</button>
+						</a>
+					</div>
+				</div>
+
+				<div class="products" id="product-5">
+					<div class="product-content">
+						<img src="product-logo.png" alt="Design Zine logo">
+						<h2>Prévention de Risque Professionnel</h2>
+						<hr>
+						<a href="Prévention_de_risque_professionnel/index.html">
+							<button>Voir Plus</button>
+						</a>
+					</div>
+				</div>
+
+				<div class="products" id="product-6">
+					<div class="product-content">
+						<img src="product-logo.png" alt="Design Zine logo">
+						<h2>Impression Numérique</h2>
+						<hr>
+						<a href="Impression_numérique/index.html">
+							<button>Voir Plus</button>
+						</a>
+					</div>
+				</div>
+
+				<div class="products" id="product-7">
+					<div class="product-content">
+						<img src="product-logo.png" alt="Design Zine logo">
+						<h2>Impression Offset</h2>
+						<hr>
+						<a href="Impression_offset/index.html">
+							<button>Voir Plus</button>
+						</a>
+					</div>
+				</div>
+
+				<div class="products" id="product-8">
+					<div class="product-content">
+						<img src="product-logo.png" alt="Design Zine logo">
+						<h2>Gravure Laser</h2>
+						<hr>
+						<a href="Gravure_laser/index.html">
+							<button>Voir Plus</button>
+						</a>
+					</div>
+				</div>
+
+				<div class="products" id="product-9">
+					<div class="product-content">
+						<img src="product-logo.png" alt="Design Zine logo">
+						<h2>Broderie</h2>
+						<hr>
+						<a href="Broderie/index.html">
+							<button>Voir Plus</button>
+						</a>
+					</div>
+				</div>
+
+				<div class="products" id="product-10">
+					<div class="product-content">
+						<img src="product-logo.png" alt="Design Zine logo">
+						<h2>Création Logo</h2>
+						<hr>
+						<a href="Création_logo/index.html">
+							<button>Voir Plus</button>
+						</a>
+					</div>
+				</div>
+
+				<div class="products" id="product-11">
+					<div class="product-content">
+						<img src="product-logo.png" alt="Design Zine logo">
+						<h2>Développement de Sites</h2>
+						<hr>
+						<a href="Développement_de_sites/index.html">
+							<button>Voir Plus</button>
+						</a>
+					</div>
+				</div>
+
+				<div class="products" id="product-12">
+					<div class="product-content">
+						<img src="product-logo.png" alt="Design Zine logo">
+						<h2>Conception de Plan HSE</h2>
+						<hr>
+						<a href="Conception_de_plan_HSE/index.html">
+							<button>Voir Plus</button>
+						</a>
+					</div>
+				</div>
+
+				<div class="products" id="product-13">
+					<div class="product-content">
+						<img src="product-logo.png" alt="Design Zine logo">
+						<h2>Habillage Véhicule</h2>
+						<hr>
+						<a href="Habillage_véhicule/index.html">
+							<button>Voir Plus</button>
+						</a>
+					</div>
+				</div>
+
+				<div class="products" id="product-14">
+					<div class="product-content">
+						<img src="product-logo.png" alt="Design Zine logo">
+						<h2>Cadeaux Fin d'année</h2>
+						<hr>
+						<a href="Cadeaux_fin_année/index.html">
+							<button>Voir Plus</button>
+						</a>
+					</div>
+				</div>
+
+				<div class="products" id="product-15">
+					<div class="product-content">
+						<img src="product-logo.png" alt="Design Zine logo">
+						<h2>Cadre Décoration</h2>
+						<hr>
+						<a href="Cadre_décoration/index.html">
+							<button>Voir Plus</button>
+						</a>
+					</div>
+				</div>
+
+				<div class="products" id="product-16">
+					<div class="product-content">
+						<img src="product-logo.png" alt="Design Zine logo">
+						<h2>Habillage Façade</h2>
+						<hr>
+						<a href="Habillage_façade/index.html">
+							<button>Voir Plus</button>
+						</a>
+					</div>
+				</div>
+
+
+				
+			</div>
+			</div>
+		</div>
+
+
+		<div id="clients-container">
+			<h1 id="clients-container-header">Nos Clients</h1>
+			<hr id="clients-container-header-line">
+			<div id="clients-section">
+
+				<div class="circle"><img src="client-1.png" alt="Tassili Airlines logo"></div>
+
+				<div class="circle"><img src="client-2.png" alt="Sonatrach logo"></div>
+
+				<div class="circle"><img src="client-3.png" alt="Naftal logo"></div>
+
+				<div class="circle"><img src="client-4.jpg" alt="Basp logo"></div>
+
+				<div class="circle"><img src="client-5.jpg" alt="Enafor logo"></div>
+
+				<div class="circle"><img src="client-6.png" alt="Entp logo"></div>
+
+				<div class="circle"><img src="client-7.png" alt="Ingco logo"></div>
+
+				<div class="circle"><img src="client-8.png" alt="Hesp logo"></div>
+
+				<div class="circle"><img src="client-9.jpg" alt="Bjsp logo"></div>
+
+				<div class="circle"><img src="client-10.png" alt="Guedila logo"></div>
+
+				<div class="circle"><img src="client-11.png" alt="Enac logo"></div>
+
+				<div class="circle"><img src="client-12.png" alt="Air Algerie logo"></div>
+
+				<div class="circle"><img src="client-13.png" alt="Redmed logo"></div>
+
+				<div class="circle"><img src="client-14.png" alt="Medilink logo"></div>
+
+				
+			</div>
+		</div>
 		
+		 
 
-		<div id="cover">
-			<div id="cover-content">
-				<h1 id="cover-heading" class="cover-txts">ملخصات</h1>
-				<hr id="cover-line">
-				<p id="cover-txt" class="cover-txts">الموقع الأول لملخصات الطور الثانوي في الجزائر </p>
-			</div>
-		</div>
-
-		<div id="years">
-
-			<div id="AS3" class="years">	
-
-				<div class="years-content">
-
-					<div class="years-texts">
-						<h2> السنة ثالثة ثانوي </h2>
-						<hr class="years-lines">
-						<p>ملخصات , دروس و تمارين السنة الثالثة ثانوي لجميع المواد .</p>
-					</div>
-					
-					<img class="years-icons" src="3AS.png" alt="1AS cropped">
-
-				</div>
-
-				<a href="3as/index.html">
-					<button id="AS3-cta" class="years-cta">
-						إضغط هنا
-					</button>
-				</a>
-				
-			</div>
-
-
-			<div id="AS2" class="years">		
-
-				<div class="years-content">
-
-					<div class="years-texts">
-						<h2> السنة ثانية ثانوي </h2>
-						<hr class="years-lines">
-						<p>ملخصات , دروس و تمارين السنة الثانية ثانوي لجميع المواد .</p>
-					</div>
-					
-					<img class="years-icons" src="2AS.png" alt="2AS icon">
-
-				</div>
-
-				<a href="2as/index.html">
-					<button id="AS2-cta" class="years-cta">
-						إضغط هنا
-					</button>
-				</a>
-					
-			</div>
-
-
-			<div id="AS1" class="years">
-
-				<div class="years-content">
-
-					<div class="years-texts">
-						<h2> السنة أولى ثانوي </h2>
-						<hr class="years-lines">
-						<p>ملخصات , دروس و تمارين السنة الأولى ثانوي لجميع المواد .</p>
-					</div>
-					
-					<img class="years-icons" src="1AS.png" alt="1AS icon">
-
-				</div>
-
-				<a href="1as/index.html">
-					<button id="AS1-cta" class="years-cta">
-						إضغط هنا
-					</button>
-				</a>
-				
-			</div>
-
-			<div id="AS3" class="add">	
-
-				<div class="add-content">
-
-					<div class="add-texts">
-						<h2>قنوات يوتيوب</h2>
-						<hr class="add-lines">
-						<p>قنوات يوتيوب ستساعدك أكثر على فهم الدروس الصعبة و المعقدة</p>
-					</div>
-					
-					<img class="add-icons" src="youtube.png" alt="youtube logo">
-
-				</div>
-
-				<a href="youtubers/index.html">
-					<button id="AS3-cta" class="add-cta">
-						إضغط هنا
-					</button>
-				</a>
-				
-			</div>
-
-			<div id="AS2" class="add">	
-
-				<div class="add-content">
-
-					<div class="add-texts">
-						<h2>كتب و مقالات خارجية </h2>
-						<hr class="add-lines">
-						<p>كتب و مقالات  تحتوي على طرق مفيدة للدراسة وقصص طلبة متفوقين و أساليبهم</p>
-					</div>
-					
-					<img class="add-icons" src="books.png" alt="youtube logo">
-
-				</div>
-
-				<a href="books/index.html">
-					<button id="AS2-cta" class="add-cta">
-						إضغط هنا
-					</button>
-				</a>
-				
-			</div>
-
-			<div id="AS1" class="add">	
-
-				<div class="add-content">
-
-					<div class="add-texts">
-						<h2>بوت الديسكورد</h2>
-						<hr class="add-lines">
-						<p>
-							قم بإضافة بوت ملخصات إلى سيرفر الديسكورد الخاص بك لوصول أسرع للملخصات
-						</p>
-					</div>
-					
-					<img class="add-icons" src="discord.png" alt="youtube logo">
-
-				</div>
-
-				<a href="https://discord.com/api/oauth2/authorize?client_id=959626817898160138&amp;permissions=274878131264&amp;scope=bot">
-					<button id="AS1-cta" class="add-cta">
-						إضغط هنا
-					</button>
-				</a>
-				
-			</div>
-
-			<div id="AS1" class="add">	
-
-				<div class="add-content">
-
-					<div class="add-texts">
-						<h2>راسم الدالة</h2>
-						<hr class="add-lines">
-						<p>
-							راسم الدالة هي أداة دراسية ستساعدك على رسم الدوال العددية و تمثيلها بيانيا					</p>
-					</div>
-					
-					<img class="add-icons" src="function.png" alt="youtube logo">
-
-				</div>
-
-				<a href="">
-					<button id="AS1-cta" class="add-cta">
-						إضغط هنا
-					</button>
-				</a>
-				
-			</div>
-
-		</div>
 
 	</section>
 
 	<footer>
 
-
-		<div id="who-us">
-
-			<div id="who-us-content">
-				
-				<div id="who-us-text">
-					<h1>من نحن ؟</h1>
-					<hr>
-					<p>
-						موقع ملخصات هو موقع جزائري للملخصات, حيث يحتوي على
-أزيد من 300+ ملخص لجميع السنوات الدراسية !!
-تم برمجته في ديسمبر 2021 من طرف الطالب المبرمج يوسف هرموني لمساعدة الطالب الثانوي الجزائري في حياته الثانوية.
-					</p>
-				</div>
-				<img src="who-us.png" alt="" id="who-us-img">
-			</div>
-
+		<div id="copyright">
+			<img src="footer-logo.png" id="logo-footer" alt="Design Zine logo">
+			<p> Aucune Violation du Droit d'Auteur N'est Prévue © Design Zine 1995 - 2022</p>
 		</div>
 
-		<div id="page-end"></div>
-
-
+		<div id="location">
+			<div id="location-header">
+				
+				<h2>Nos Cordonnées</h2>
+				<img src="location.png" alt="location marker icon">
+			</div>
+			<ul>
+				<li>Cite 442 , Hassi Messaoued</li>
+				<li>El Hamiz Dar El Beida , Alger</li>
+				<li>Cite Belghanem , Ghardaia</li>
+			</ul>
+		</div>
+		<hr id="footer-line">
+		
+		<div id="phone-number">
+			<div id="phone-number-header">
+				<img src="phone.png" alt="Phone number icon">
+				<h2>Nos numéro de téléphone</h2>
+			</div>
+			<ul>
+				<li class="number-type">Réception</li>
+				<li>06 87 07 42 6</li>
+				<li>029 79 94 29</li>
+				
+				<li class="number-type">Assistance commerciale</li>
+				
+				<li>+213 73 26 44 90</li>
+				<li>05 41 13 25 86</li>
+				
+				<li class="number-type">Assistance technique</li>
+				<li>06 67 46 31 36</li>
+			</ul>
+		</div>
 	</footer>
+
+	
+	<script src="main_page.js"></script>
 	<script src="script.js"></script>
-	<script src="service-worker.js"></script>
+
+	
 
 </body>
 </html>
