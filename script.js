@@ -101,7 +101,7 @@ if( window.outerWidth <= 1080 &&  window.outerWidth >= 960) {
 if( window.outerWidth <= 700 &&  window.outerWidth >= 350) {
 	var products_logo = document.querySelectorAll(".products .product-content img");
 	var products_line = document.querySelectorAll(".products .product-content hr");
-  var products_header = document.querySelectorAll(".products .product-content h2");
+  var products_header = document.querySelectorAll(".products .product-content h3");
   var products_btns = document.querySelectorAll(".products .product-content a button");
   var imgsSections = document.querySelectorAll(".imgs-section")
   document.querySelector("#phone-number-header h2").style.fontSize = "22px"
