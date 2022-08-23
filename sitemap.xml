@@ -1,117 +1,204 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
+﻿<?xml version="1.0" encoding="UTF-8"?>
+		<!--	created with www.mysitemapgenerator.com	-->
+		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-  <loc>https://design-zine.netlify.app/</loc>
-  <lastmod>2022-08-23T16:52:54+00:00</lastmod>
-  <priority>1.00</priority>
+	<loc>https://design-zine.netlify.app/</loc>
+	<lastmod>2022-08-23T20:12:31+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://design-zine.netlify.app/index.html</loc>
-  <lastmod>2022-08-23T16:52:54+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://design-zine.netlify.app/index.html</loc>
+	<lastmod>2022-08-23T20:12:31+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://design-zine.netlify.app/contactez_nous</loc>
-  <lastmod>2022-08-23T16:52:54+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://design-zine.netlify.app/Contactez_nous.html</loc>
+	<lastmod>2022-08-23T20:12:31+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://design-zine.netlify.app/%C3%A0_propos_de_nous</loc>
-  <lastmod>2022-08-23T16:52:54+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://design-zine.netlify.app/%C3%80_propos_de_nous.html</loc>
+	<lastmod>2022-08-23T20:12:31+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://design-zine.netlify.app/nos_r%C3%A9alisations</loc>
-  <lastmod>2022-08-23T16:52:54+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://design-zine.netlify.app/Nos_r%C3%A9alisations.html</loc>
+	<lastmod>2022-08-23T20:12:31+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://design-zine.netlify.app/signalisation_routiere/</loc>
-  <lastmod>2022-08-23T16:52:54+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://design-zine.netlify.app/Signalisation_routiere/index.html</loc>
+	<lastmod>2022-08-23T20:12:31+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>https://design-zine.netlify.app/panneaux_s%C3%A9curit%C3%A9/</loc>
-  <lastmod>2022-08-23T16:52:54+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://design-zine.netlify.app/Panneaux_s%C3%A9curit%C3%A9/index.html</loc>
+	<lastmod>2022-08-23T20:12:31+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>https://design-zine.netlify.app/panneaux_publicitaire/</loc>
-  <lastmod>2022-08-23T16:52:54+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://design-zine.netlify.app/Panneaux_publicitaire/index.html</loc>
+	<lastmod>2022-08-23T20:12:31+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>https://design-zine.netlify.app/s%C3%A9rigraphie/</loc>
-  <lastmod>2022-08-23T16:52:54+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://design-zine.netlify.app/S%C3%A9rigraphie/index.html</loc>
+	<lastmod>2022-08-23T20:12:31+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>https://design-zine.netlify.app/pr%C3%A9vention_de_risque_professionnel/</loc>
-  <lastmod>2022-08-23T16:52:54+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://design-zine.netlify.app/Pr%C3%A9vention_de_risque_professionnel/index.html</loc>
+	<lastmod>2022-08-23T20:12:31+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>https://design-zine.netlify.app/impression_num%C3%A9rique/</loc>
-  <lastmod>2022-08-23T16:52:54+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://design-zine.netlify.app/Impression_num%C3%A9rique/index.html</loc>
+	<lastmod>2022-08-23T20:12:31+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>https://design-zine.netlify.app/impression_offset/</loc>
-  <lastmod>2022-08-23T16:52:54+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://design-zine.netlify.app/Impression_offset/index.html</loc>
+	<lastmod>2022-08-23T20:12:31+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>https://design-zine.netlify.app/gravure_laser/</loc>
-  <lastmod>2022-08-23T16:52:54+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://design-zine.netlify.app/Gravure_laser/index.html</loc>
+	<lastmod>2022-08-23T20:12:31+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>https://design-zine.netlify.app/broderie/</loc>
-  <lastmod>2022-08-23T16:52:54+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://design-zine.netlify.app/Broderie/index.html</loc>
+	<lastmod>2022-08-23T20:12:31+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>https://design-zine.netlify.app/cr%C3%A9ation_logo/</loc>
-  <lastmod>2022-08-23T16:52:54+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://design-zine.netlify.app/Cr%C3%A9ation_logo/index.html</loc>
+	<lastmod>2022-08-23T20:12:31+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>https://design-zine.netlify.app/d%C3%A9veloppement_de_sites/</loc>
-  <lastmod>2022-08-23T16:52:54+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://design-zine.netlify.app/D%C3%A9veloppement_de_sites/index.html</loc>
+	<lastmod>2022-08-23T20:12:31+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>https://design-zine.netlify.app/conception_de_plan_hse/</loc>
-  <lastmod>2022-08-23T16:52:54+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://design-zine.netlify.app/Conception_de_plan_HSE/index.html</loc>
+	<lastmod>2022-08-23T20:12:31+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>https://design-zine.netlify.app/habillage_v%C3%A9hicule/</loc>
-  <lastmod>2022-08-23T16:52:54+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://design-zine.netlify.app/Habillage_v%C3%A9hicule/index.html</loc>
+	<lastmod>2022-08-23T20:12:31+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>https://design-zine.netlify.app/cadeaux_fin_ann%C3%A9e/</loc>
-  <lastmod>2022-08-23T16:52:54+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://design-zine.netlify.app/Cadeaux_fin_ann%C3%A9e/index.html</loc>
+	<lastmod>2022-08-23T20:12:31+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>https://design-zine.netlify.app/cadre_d%C3%A9coration/</loc>
-  <lastmod>2022-08-23T16:52:54+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://design-zine.netlify.app/Cadre_d%C3%A9coration/index.html</loc>
+	<lastmod>2022-08-23T20:12:31+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>https://design-zine.netlify.app/habillage_fa%C3%A7ade/</loc>
-  <lastmod>2022-08-23T16:52:54+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://design-zine.netlify.app/Habillage_fa%C3%A7ade/index.html</loc>
+	<lastmod>2022-08-23T20:12:31+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
-
-
+<url>
+	<loc>https://design-zine.netlify.app/contactez_nous</loc>
+	<lastmod>2022-08-23T20:12:33+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://design-zine.netlify.app/%C3%A0_propos_de_nous</loc>
+	<lastmod>2022-08-23T20:12:34+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://design-zine.netlify.app/signalisation_routiere/</loc>
+	<lastmod>2022-08-23T20:12:35+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://design-zine.netlify.app/nos_r%C3%A9alisations</loc>
+	<lastmod>2022-08-23T20:12:35+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://design-zine.netlify.app/panneaux_publicitaire/</loc>
+	<lastmod>2022-08-23T20:12:35+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://design-zine.netlify.app/s%C3%A9rigraphie/</loc>
+	<lastmod>2022-08-23T20:12:36+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://design-zine.netlify.app/panneaux_s%C3%A9curit%C3%A9/</loc>
+	<lastmod>2022-08-23T20:12:36+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://design-zine.netlify.app/pr%C3%A9vention_de_risque_professionnel/</loc>
+	<lastmod>2022-08-23T20:12:37+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://design-zine.netlify.app/impression_num%C3%A9rique/</loc>
+	<lastmod>2022-08-23T20:12:37+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://design-zine.netlify.app/impression_offset/</loc>
+	<lastmod>2022-08-23T20:12:38+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://design-zine.netlify.app/cr%C3%A9ation_logo/</loc>
+	<lastmod>2022-08-23T20:12:38+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://design-zine.netlify.app/gravure_laser/</loc>
+	<lastmod>2022-08-23T20:12:38+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://design-zine.netlify.app/d%C3%A9veloppement_de_sites/</loc>
+	<lastmod>2022-08-23T20:12:39+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://design-zine.netlify.app/broderie/</loc>
+	<lastmod>2022-08-23T20:12:39+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://design-zine.netlify.app/conception_de_plan_hse/</loc>
+	<lastmod>2022-08-23T20:12:40+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://design-zine.netlify.app/cadeaux_fin_ann%C3%A9e/</loc>
+	<lastmod>2022-08-23T20:12:40+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://design-zine.netlify.app/habillage_v%C3%A9hicule/</loc>
+	<lastmod>2022-08-23T20:12:40+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://design-zine.netlify.app/habillage_fa%C3%A7ade/</loc>
+	<lastmod>2022-08-23T20:12:40+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://design-zine.netlify.app/cadre_d%C3%A9coration/</loc>
+	<lastmod>2022-08-23T20:12:40+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
 </urlset>
