@@ -60,7 +60,7 @@ if( window.outerWidth <= 1080 &&  window.outerWidth >= 960) {
 }
 
 
-if( window.outerWidth >= 400 &&  window.outerWidth <= 600  ) {
+if( window.outerWidth >= 350 &&  window.outerWidth <= 600  ) {
 	
 	productSection.style.gridTemplateRows = "repeat(5, 200px)";
 	productSection.style.gridTemplateColumns ="repeat(4, 200px)";

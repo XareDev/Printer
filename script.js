@@ -98,7 +98,7 @@ if( window.outerWidth <= 1080 &&  window.outerWidth >= 960) {
 
 }
 
-if( window.outerWidth <= 700 &&  window.outerWidth >= 400) {
+if( window.outerWidth <= 700 &&  window.outerWidth >= 350) {
 	var products_logo = document.querySelectorAll(".products .product-content img");
 	var products_line = document.querySelectorAll(".products .product-content hr");
   var products_header = document.querySelectorAll(".products .product-content h2");
