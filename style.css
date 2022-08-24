@@ -219,7 +219,7 @@ footer #footer-line {
 	margin-left: 15px;
 }
 
-#location-header h3 {
+#location-header h3, #location-header h2 {
 	color: white;
 	font-size: 24px;
 }
@@ -261,7 +261,7 @@ footer #footer-line {
 	margin-right: 15px;
 }
 
-#phone-number-header h3 {
+#phone-number-header h3, #phone-number-header h2 {
 	color: white;
 	font-size: 24px;
 }
