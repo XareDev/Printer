@@ -42,14 +42,14 @@ section {
 }
 
 #about-us-text {
-	width: 90%;
+	width: 65%;
 	 font-size: 18px;
 	 line-height: 1.5em;
-	 color: #777;
+	 color: #282828;
 }
 
 #about-us-logo {
 	margin-bottom: 20px;
-	width: 192px;
-	height: 192px;
+	width: 120px;
+	height: 120px;
 }
