@@ -303,3 +303,13 @@
 	border-bottom: 1px solid #000;
 
 }
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+	#product-section {
+		grid-template-rows: repeat(2, 95px);
+		gap: 10px;
+	}	
+	#products-container-header-line {
+		display: none;
+	}
+}

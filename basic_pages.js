@@ -8,9 +8,6 @@ function scrollFunction() {
     if(window.outerWidth <= 960) {
     	document.getElementById("logo").style.height = "48px";
 	    document.getElementById("logo").style.width = "48px";
-	    for (var i = 0 ; i < nav_items.length; i++) {
-		   	nav_items[i].style.fontSize = "16px"
-			};
 			}
 
 
@@ -22,7 +19,8 @@ function scrollFunction() {
 	   		};
  		}
 
- 		 document.getElementById("header").style.position = "fixed";
+ 		 document.querySelector("header").style.position = "fixed";
+		  document.querySelector("header").style.background = "#111010";
 
   } 
 
@@ -31,20 +29,18 @@ function scrollFunction() {
     if(window.outerWidth <= 960) {
     	document.getElementById("logo").style.height = "48px";
 	    document.getElementById("logo").style.width = "48px";
-	    for (var i = 0 ; i < nav_items.length; i++) {
-		   	nav_items[i].style.fontSize = "22px"
-				};
 			}
 
 		else {
 		  document.getElementById("logo").style.height = "80px";
 		  document.getElementById("logo").style.width = "80px";
+		  document.querySelector("header").style.background = "#111010";
 		  for (var i = 0 ; i < nav_items.length; i++) {
 		 	nav_items[i].style.fontSize = "24px"
 			};
 		}
 
-		 document.getElementById("header").style.position = "static";
+		 document.querySelector("header").style.position = "static";
 
   }
 }
@@ -53,6 +49,11 @@ function Loading_off(){
 	var loader = document.getElementById("loading");
 	loader.style.display ="none";
    document.querySelector("body").style.overflow = "visible"
+   
+	document.querySelectorAll(".css").forEach(e => {
+		e.removeAttribute('disabled');
+	})
+
 }
 
 window.addEventListener("load", Loading_off);
@@ -69,3 +70,19 @@ if( window.outerWidth <= 600 &&  window.outerWidth >= 400) {
 		   	nav_items[i].style.fontSize = "22px"
 			};
 }
+
+const nav = document.querySelector("nav")
+const hamMenu = document.querySelector(".mobile-nav-toggle")
+
+hamMenu.addEventListener('click', () => {
+	visible = nav.getAttribute("data-visible")
+	expended = hamMenu.getAttribute("data-expanded")
+
+	if (visible === "false") {
+		nav.setAttribute("data-visible", "true")
+		hamMenu.setAttribute("data-expanded", "true")
+	} else if (visible === "true"){
+		nav.setAttribute("data-visible", "false")
+		hamMenu.setAttribute("data-expanded", "false")
+	}
+})

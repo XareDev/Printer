@@ -102,23 +102,3 @@ function unfilter(name, index) {
 	select.options[index].style.display = "block"
 }
 
-
-
-if( window.outerWidth <= 1080 &&  window.outerWidth >= 400) {
-	sec = document.querySelector("section");
-
-	gc = document.querySelector("#gallery-container");
-
-	fil = document.querySelector("#filter")
-
-	sec.style.height = gc.scrollHeight + 600 + "px"
-	fil.style.width = "85%"
-} else if (window.outerWidth > 1080 &&  window.outerWidth <= 2056) {
-	sec = document.querySelector("section");
-
-	gc = document.querySelector("#gallery-container");
-
-	fil = document.querySelector("#filter")
-
-	sec.style.height = gc.scrollHeight + 400 + "px"
-}

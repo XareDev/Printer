@@ -60,17 +60,3 @@ if( window.outerWidth <= 1080 &&  window.outerWidth >= 960) {
 }
 
 
-if( window.outerWidth >= 350 &&  window.outerWidth <= 600  ) {
-	
-	productSection.style.gridTemplateRows = "repeat(5, 200px)";
-	productSection.style.gridTemplateColumns ="repeat(4, 200px)";
-	slideShow.style.height = "50vh";
-
-	for (var i = circle_image.length - 1; i >= 0; i--) {
-		circle_image[i].style.maxWidth = "64px"
-		circle_image[i].style.maxHeight = "64px"
-		circle[i].style.height = "88px"
-		circle[i].style.width = "88px"
-	}
-	
-}

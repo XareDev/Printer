@@ -7,16 +7,6 @@ if( window.outerWidth <= 1080 &&  window.outerWidth >= 960) {
 
 }
 
-
-if( window.outerWidth <= 600 &&  window.outerWidth >= 400) {
-	
-	productSection.style.gridTemplateRows = "repeat(2, 200px)";
-	productSection.style.gridTemplateColumns ="repeat(4, 200px)";
-	slideShow.style.height = "50vh";
-	
-}
-
-
 var btn = document.getElementsByClassName('cta');
 
 function restart_ani() {
