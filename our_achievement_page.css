@@ -161,3 +161,28 @@ select:focus{
 	border-radius: 25px;
 
 }
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+	#gallery-container {
+		height: 150px;
+	}
+
+	#filter {
+		width: 90%;
+	}
+
+	select {
+		width: 175px;
+	}
+
+	#produit-label h2 {
+		margin-bottom: 10px;
+	}
+
+	#about-container-header-line {
+		width: 155px;
+	}
+	#about-container-header {
+		font-size: 20px;
+	}
+}

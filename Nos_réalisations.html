@@ -3,25 +3,33 @@
 <head>
 	<meta charset="utf-8">
 	<link rel="shortcut icon" type="image/png" href="fav-logo.png">
-	<link rel="stylesheet" href="style.css">
-	<link rel="stylesheet" href="our_achievement_page.css">
-	<link rel="alternate" hreflang="ar" href="index.html">
-	<link rel="alternate" hreflang="fr" href="index.html">
-	<link rel="alternate" hreflang="en" href="en/index.html">
+	<link rel="stylesheet" disabled class="css" href="our_achievement_page.min.css">
+	<link rel="alternate" hreflang="en" href="en/our_achievements.html">
 	<meta name="description" content="Consultez nos projets et réalisations d'impression et des panneaux en Design Zine, le 1er imprimeur à Hassi Messaoud , Alger">
 
+	<meta property="og:title" content="Design Zine | Nos Réalisations" />
+	<meta property="og:url" content="design-zine.netlify.app/Nos_Réalisations" />
+	<meta property="og:image" content="logo.png" />
+	<meta property="og:type" content="website" />
+	<meta property="og:description" content="Consultez nos projets et réalisations d'impression et des panneaux en Design Zine, le 1er imprimeur à Hassi Messaoud , Alger" />
 
+	<title>Design Zine | Nos Réalisations</title>	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" disabled class="css" href="style.min.css">
+	<link rel="stylesheet" disabled class="css" href="basic_pages.min.css">
 
-	<title>Design Zine | À Propos de Nous</title>	
+	
 </head>
 <body>
-	<div id="loading"></div>
-	<header id="header">
+	<header>
+		<div id="loading"></div>
 		<a href="index.html">
-			<img src="logo.png" alt="Design Zine logo" id="logo">
+			<img src="logo.png" alt="Design Zine logo" id="logo" itemprop="logo">
 		</a>
-
-		<nav>
+		<button class="mobile-nav-toggle" data-expanded="false">
+			<span class="sr-only">Menu</span>
+		</button>
+		<nav data-visible="false">
 			<ul class="nav_links">
 
 				<li>
@@ -59,20 +67,20 @@
 					<option value="" disabled selected hidden>Produit / Service</option>
 
 					<optgroup label="Signalisation Routiere">
-						<option value="Signalisation Routiere Metalic">Signalisation Routiere Metalic</option>
+						<option value="Signalisation Routiere métallique">Signalisation Routiere métallique</option>
 						<option value="Signalisation Routiere En Galvanized">Signalisation Routiere En Galvanized</option>
 						<option value="Signalisation Routiere Avec Supporte">Signalisation Routiere Avec Supporte</option>
 						<option value="Signalisation Routiere Sans Supporte">Signalisation Routiere Sans Supporte</option>
 					</optgroup>
 
 					<optgroup label="Panneaux Sécurité">
-						<option value="Panneaux Sécurité Metalic">Panneaux Sécurité Metalic</option>
+						<option value="Panneaux Sécurité métallique">Panneaux Sécurité métallique</option>
 						<option value="Panneaux Sécurité Alucobond">Panneaux Sécurité Alucobond</option>
 						<option value="Panneaux Sécurité Plexiglass">Panneaux Sécurité Plexiglass</option>
 					</optgroup>
 
 					<optgroup label="Panneaux Publicitaire">
-						<option value="Panneaux Publicitaire Metalic">Panneaux Publicitaire Metalic</option>
+						<option value="Panneaux Publicitaire métallique">Panneaux Publicitaire métallique</option>
 						<option value="Panneaux Publicitaire Lumineuse">Panneaux Publicitaire Lumineuse</option>
 						<option value="Panneaux Publicitaire Forex">Panneaux Publicitaire Forex</option>
 					</optgroup>
@@ -176,9 +184,9 @@
 	<div id="filter-boxes-container">
 				<div id="filter-boxes">
 
-					<div class="filter-boxes hidden" id="Panneaux-Sécurité-Metalic">
-						<button onclick='unfilter("Panneaux-Sécurité-Metalic", 5)'>x</button>
-						<p>Panneaux Sécurité Metalic</p>
+					<div class="filter-boxes hidden" id="Panneaux-Sécurité-métallique">
+						<button onclick='unfilter("Panneaux-Sécurité-métallique", 5)'>x</button>
+						<p>Panneaux Sécurité métallique</p>
 					</div>
 
 					<div class="filter-boxes hidden" id="Panneaux-Sécurité-Plexiglass">
@@ -190,32 +198,38 @@
 
 	</div>
 		
-		<div id="gallery-container">
-			<img src="Panneaux Sécurité Metalic 1.jpg" alt="" class="gallery Panneaux-Sécurité-Metalic">
-			<img src="Panneaux Sécurité Metalic 2.jpg" alt="" class="gallery Panneaux-Sécurité-Metalic">
-			<img src="Panneaux Sécurité Metalic 3.jpg" alt="" class="gallery Panneaux-Sécurité-Metalic">
-			<img src="Panneaux Sécurité Plexiglass 1.jpg" alt="" class="gallery Panneaux-Sécurité-Plexiglass">
-			<img src="Panneaux Sécurité Plexiglass 2.jpg" alt="" class="gallery Panneaux-Sécurité-Plexiglass">
-			<img src="Panneaux Sécurité Plexiglass 3.jpg" alt="" class="gallery Panneaux-Sécurité-Plexiglass">
+		<div id="gallery-container" itemtype="https://schema.org/Product" itemscope>
+			<img src="Panneaux Sécurité métallique 1.jpg" alt="" class="gallery Panneaux-Sécurité-métallique" itemprop="image">
+			<span class="sr-only" itemprop="name">Panneaux Sécurité métallique</span>
+			<img src="Panneaux Sécurité métallique 2.jpg" alt="" class="gallery Panneaux-Sécurité-métallique" itemprop="image">
+			<span class="sr-only" itemprop="name">Panneaux Sécurité métallique</span>
+			<img src="Panneaux Sécurité métallique 3.jpg" alt="" class="gallery Panneaux-Sécurité-métallique" itemprop="image">
+			<span class="sr-only" itemprop="name">Panneaux Sécurité métallique</span>
+			<img src="Panneaux Sécurité Plexiglass 1.jpg" alt="" class="gallery Panneaux-Sécurité-Plexiglass" itemprop="image">
+			<span class="sr-only" itemprop="name">Panneaux Sécurité Plexiglass</span>
+			<img src="Panneaux Sécurité Plexiglass 2.jpg" alt="" class="gallery Panneaux-Sécurité-Plexiglass" itemprop="image">
+			<span class="sr-only" itemprop="name">Panneaux Sécurité Plexiglass</span>
+			<img src="Panneaux Sécurité Plexiglass 3.jpg" alt="" class="gallery Panneaux-Sécurité-Plexiglass" itemprop="image">
+			<span class="sr-only" itemprop="name">Panneaux Sécurité Plexiglass</span>
 		</div>
 	</section>
 
 	<footer>
 <div id="copyright">
-			<img src="footer-logo.png" id="logo-footer" alt="Design Zine logo">
+			<img src="footer-logo.png" id="logo-footer" alt="Design Zine logo" itemprop="logo">
 			<p> Aucune Violation du Droit d'Auteur N'est Prévue © Design Zine 1995 - 2022</p>
 		</div>
 
-		<div id="location">
+		<div id="location" itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
 			<div id="location-header">
 				
-				<h2>Nos Cordonnées</h2>
+				<h2>Nos Coordonnées</h2>
 				<img src="location.png" alt="location marker icon">
 			</div>
 			<ul>
-				<li>Cite 442 , Hassi Messaoued</li>
-				<li>El Hamiz Dar El Beida , Alger</li>
-				<li>Cite Belghanem , Ghardaia</li>
+				<li><span itemprop="streetAddress">Cite 442</span> , <span itemprop="addressLocality">Hassi Messaoued</span></li>
+				<li><span itemprop="addressLocality">El Hamiz Dar El Beida , Alger</span></li>
+				<li><span itemprop="streetAddress">Cite Belghanem</span> , <span itemprop="addressLocality">Ghardaia</span></li>
 			</ul>
 		</div>
 		<hr id="footer-line">
@@ -227,21 +241,21 @@
 			</div>
 			<ul>
 				<li class="number-type">Réception</li>
-				<li>06 87 07 42 6</li>
-				<li>029 79 94 29</li>
+				<li itemprop="telephone">06 87 07 42 6</li>
+				<li itemprop="faxNumber">029 79 94 29</li>
 				
 				<li class="number-type">Assistance commerciale</li>
 				
-				<li>+213 73 26 44 90</li>
-				<li>05 41 13 25 86</li>
+				<li itemprop="telephone">+213 73 26 44 90</li>
+				<li itemprop="telephone">05 41 13 25 86</li>
 				
 				<li class="number-type">Assistance technique</li>
-				<li>06 67 46 31 36</li>
+				<li itemprop="telephone">06 67 46 31 36</li>
 			</ul>
 		</div>
 
-	<script src="basic_pages.js"></script>
-	<script src="our_achievement_page.js"></script>
+	<script defer src="basic_pages.min.js"></script>
+	<script defer src="our_achievement_page.min.js"></script>
 
 	
 

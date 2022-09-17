@@ -3,24 +3,33 @@
 <head>
 	<meta charset="utf-8">
 	<link rel="shortcut icon" type="image/png" href="fav-logo.png">
-	<link rel="stylesheet" href="style.css">
-	<link rel="stylesheet" href="contact_us_page.css">
-	<link rel="alternate" hreflang="ar" href="index.html">
-	<link rel="alternate" hreflang="fr" href="index.html">
-	<link rel="alternate" hreflang="en" href="en/index.html">
+	<link rel="stylesheet"  disabled class="css" href="contact_us_page.min.css">
+	<link rel="alternate" hreflang="en" href="en/Contact_us.html">
 	<meta name="description" content="Avez-vous des questions sur Design Zine, nos produits d'impression ou nos services(Panneaux Sécurité etc) ? alors n'hésitez pas à nous contacter">
 
+	<meta property="og:title" content="Design Zine | Contactez Nous" />
+	<meta property="og:url" content="design-zine.netlify.app/Contactez_Nous" />
+	<meta property="og:image" content="logo.png" />
+	<meta property="og:type" content="website" />
+	<meta property="og:description" content="Avez-vous des questions sur Design Zine, nos produits d'impression ou nos services(Panneaux Sécurité etc) ? alors n'hésitez pas à nous contacter" />
 
-	<title>Design Zine | Contactez Nous</title>	
+	<title>Design Zine | Contactez Nous</title>		
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet"  disabled class="css" href="style.min.css">
+	<link rel="stylesheet"  disabled class="css" href="basic_pages.min.css">
+
+	
 </head>
 <body>
-	<div id="loading"></div>
-	<header id="header">
+	<header>
+		<div id="loading"></div>
 		<a href="index.html">
-			<img src="logo.png" alt="Design Zine logo" id="logo">
+			<img src="logo.png" alt="Design Zine logo" id="logo" itemprop="logo">
 		</a>
-
-		<nav>
+		<button class="mobile-nav-toggle" data-expanded="false">
+			<span class="sr-only">Menu</span>
+		</button>
+		<nav data-visible="false">
 			<ul class="nav_links">
 
 				<li>
@@ -100,16 +109,16 @@
 			</form>
 		</div>
 
-		<div id="location">
+		<div id="location" itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
 			<div id="location-header">
 				
-				<h2>Nos Cordonnées</h2>
+				<h2>Nos Coordonnées</h2>
 				<img src="location.png" alt="location marker icon">
 			</div>
 			<ul>
-				<li>Cite 442 , Hassi Messaoued</li>
-				<li>El Hamiz Dar El Beida , Alger</li>
-				<li>Cite Belghanem , Ghardaia</li>
+				<li><span itemprop="streetAddress">Cite 442</span> , <span itemprop="addressLocality">Hassi Messaoued</span></li>
+				<li><span itemprop="addressLocality">El Hamiz Dar El Beida , Alger</span></li>
+				<li><span itemprop="streetAddress">Cite Belghanem</span> , <span itemprop="addressLocality">Ghardaia</span></li>
 			</ul>
 		</div>
 
@@ -121,7 +130,8 @@
 			<ul>
 				<li>
 					<img src="gmail.png" alt="Gmail logo">
-					decorzine@yahoo.fr
+					
+					<span itemprop="email">decorzine@yahoo.fr</span>
 				</li>
 
 			</ul>
@@ -134,29 +144,29 @@
 			</div>
 			<ul>
 				<li class="number-type">Réception</li>
-				<li>06 87 07 42 6</li>
-				<li>029 79 94 29</li>
+				<li itemprop="telephone">06 87 07 42 6</li>
+				<li itemprop="faxNumber">029 79 94 29</li>
 				
 				<li class="number-type">Assistance commerciale</li>
 				
-				<li>+213 73 26 44 90</li>
-				<li>05 41 13 25 86</li>
+				<li itemprop="telephone">+213 73 26 44 90</li>
+				<li itemprop="telephone">05 41 13 25 86</li>
 				
 				<li class="number-type">Assistance technique</li>
-				<li>06 67 46 31 36</li>
+				<li itemprop="telephone">06 67 46 31 36</li>
 			</ul>
 		</div>
 
 
 
 		<div id="copyright">
-			<img src="footer-logo.png" id="logo-footer" alt="Design Zine logo">
+			<img src="footer-logo.png" id="logo-footer" alt="Design Zine logo" itemprop="logo">
 			<p> Aucune Violation du Droit d'Auteur N'est Prévue © Design Zine 1995 - 2022</p>
 		</div>
 	</footer>
 
-	<script src="basic_pages.js"></script>
-	<script src="contact_us_page.js"></script>
+	<script defer src="basic_pages.min.js"></script>
+	<script defer src="contact_us_page.min.js"></script>
 
 	
 

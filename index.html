@@ -2,25 +2,36 @@
 <html lang="fr">
 <head>
 	<meta charset="utf-8">
+	
 	<link rel="shortcut icon" type="image/png" href="fav-logo.png">
-	<link rel="stylesheet" href="style.css">
-	<link rel="stylesheet" href="main_page.css">
-	<link rel="alternate" hreflang="ar" href="index.html">
-	<link rel="alternate" hreflang="fr" href="index.html">
-	<link rel="alternate" hreflang="en" href="en/index.html">
-	<meta name="description" content="Design zine est un entreprise Algerienne spécialisée dans tous travaux de l'impression. Consultez nos produits et services d'impression et des panneaux">
+	<link disabled rel="stylesheet" href="main_page.min.css" class="css">
+		
+	<meta property="og:title" content="Design Zine | Page D'accueil" />
+	<meta property="og:url" content="design-zine.netlify.app" />
+	<meta property="og:image" content="logo.png" />
+	<meta property="og:type" content="website" />
+	<meta property="og:description" content="Design zine est un entreprise Algerienne spécialisée dans tous travaux de l'impression. Consultez nos produits et services d'impression et des panneaux" />
 
 
 
 	<title>Design Zine | Page D'accueil</title>	
+
+	<link rel="alternate" hreflang="en" href="en/index.html">
+	<meta name="description" content="Design zine est un entreprise Algerienne spécialisée dans tous travaux de l'impression. Consultez nos produits et services d'impression et des panneaux">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link disabled rel="stylesheet" href="style.min.css" class="css">
+
+	
 </head>
 <body>
-	<header id="header">
+	<header>
 		<a href="index.html">
-			<img src="logo.png" alt="Design Zine logo" id="logo">
+			<img src="logo.png" alt="Design Zine logo" id="logo" itemprop="logo">
 		</a>
-
-		<nav>
+		<button class="mobile-nav-toggle" data-expanded="false">
+			<span class="sr-only">Menu</span>
+		</button>
+		<nav data-visible="false">
 			<ul class="nav_links">
 
 				<li>
@@ -58,7 +69,7 @@
 						<div class="imgs-section">
 							<h2 class="section-header">Signalisation Routiere</h2>
 							<hr class="section-line">
-							<p class="section-info">Consultez nos Services de Signalisation routiere (panneaux routiere metalic , panneaux en galvanized , panneaux avec supporte , panneaux sans supporte) et plus encore sur le site Web de Design Zine </p>
+							<p class="section-info">Consultez nos Services de Signalisation routiere (panneaux routiere métallique , panneaux en galvanized , panneaux avec supporte , panneaux sans supporte) et plus encore sur le site Web de Design Zine</p>
 							<a href="Signalisation_routiere/index.html">
 								<button class="cta">Voir Plus</button>
 							</a>
@@ -74,7 +85,7 @@
 						<div class="imgs-section">
 							<h2 class="section-header">Panneaux Sécurité</h2>
 							<hr class="section-line">
-							<p class="section-info">Consultez nos Services de Panneaux Sécurité (panneaux Sécurité metalic , panneaux alucobond , panneuax plexiglass) et plus encore sur le site Web de Design Zine </p>
+							<p class="section-info">Consultez nos Services de Panneaux Sécurité (panneaux Sécurité métallique , panneaux alucobond , panneaux plexiglass) et plus encore sur le site Web de Design Zine</p>
 							<a href="Panneaux_sécurité/index.html">
 								<button class="cta">Voir Plus</button>
 							</a>
@@ -90,7 +101,7 @@
 						<div class="imgs-section">
 							<h2 class="section-header">Panneaux Publicitaire</h2>
 							<hr class="section-line">
-							<p class="section-info">Consultez nos Services de Panneaux publicitaire (panneau publicitaire metalic , panneau luminesse , panneaux en forex) et plus encore sur le site Web de Design Zine </p>
+							<p class="section-info">Consultez nos Services de Panneaux publicitaire (panneaux publicitaire métallique , panneaux luminesse , panneaux en forex) et plus encore sur le site Web de Design Zine</p>
 							<a href="Panneaux_publicitaire/index.html">
 								<button class="cta">Voir Plus</button>
 							</a>
@@ -106,7 +117,7 @@
 						<div class="imgs-section">
 							<h2 class="section-header">Sérigraphie</h2>
 							<hr class="section-line">
-							<p class="section-info">Consultez nos Services de Sérigraphie (sur plexi glass , sur clothese , sur autocollante , sur pp) et plus encore sur le site Web de Design Zine </p>
+							<p class="section-info">Consultez nos Services de Sérigraphie (sur plexi glass , sur vêtements , sur autocollante , sur pp) et plus encore sur le site Web de Design Zine</p>
 							<a href="Sérigraphie/index.html">
 								<button class="cta">Voir Plus</button>
 							</a>
@@ -138,7 +149,7 @@
 						<div class="imgs-section">
 							<h2 class="section-header">Impression Numérique</h2>
 							<hr class="section-line">
-							<p class="section-info">Consultez nos Services de Impression numérique (habillage vitrine , impression sur bache , impression grand format , stickers ,Bannieres Publicitaires) et plus encore sur le site Web de Design Zine </p>
+							<p class="section-info">Consultez nos Services de Impression numérique (habillage vitrine , impression sur bache , impression grand format , stickers ,Bannieres Publicitaires) et plus encore sur le site Web de Design Zine</p>
 							<a href="Impression_numérique/index.html">
 								<button class="cta">Voir Plus</button>
 							</a>
@@ -154,7 +165,7 @@
 						<div class="imgs-section">
 							<h2 class="section-header">Impression Offset</h2>
 							<hr class="section-line">
-							<p class="section-info">Consultez nos Services de Impression offset (livres , calendrier , agenda , bon pour) et plus encore sur le site Web de Design Zine </p>
+							<p class="section-info">Consultez nos Services de Impression offset (livres , calendrier , agenda , bon pour) et plus encore sur le site Web de Design Zine</p>
 							<a href="Impression_offset/index.html">
 								<button class="cta">Voir Plus</button>
 							</a>
@@ -170,7 +181,7 @@
 						<div class="imgs-section">
 							<h2 class="section-header">Gravure Laser</h2>
 							<hr class="section-line">
-							<p class="section-info">Consultez nos Services de Gravure laser (découpe forex, plaque de bureau, découpe alucobond) et plus encore sur le site Web de Design Zine </p>
+							<p class="section-info">Consultez nos Services de Gravure laser (découpe forex, plaque de bureau, découpe alucobond) et plus encore sur le site Web de Design Zine</p>
 							<a href="Gravure_laser/index.html">
 								<button class="cta">Voir Plus</button>
 							</a>
@@ -234,7 +245,7 @@
 						<div class="imgs-section">
 							<h2 class="section-header">Conception de Plan HSE</h2>
 							<hr class="section-line">
-							<p class="section-info">Consultez nos Services de Conception de plan HSE et plus encore sur le site Web de Design Zine </p>
+							<p class="section-info">Consultez nos Services de Conception de plan HSE et plus encore sur le site Web de Design Zine</p>
 							<a href="Conception_de_plan_HSE/index.html" class="cta">
 								<button>Voir Plus</button>
 							</a>
@@ -249,7 +260,7 @@
 						<div class="imgs-section">
 							<h2 class="section-header">Découpe Numérique</h2>
 							<hr class="section-line">
-							<p class="section-info">Consultez nos Services de Découpe numérique et plus encore sur le site Web de Design Zine  </p>
+							<p class="section-info">Consultez nos Services de Découpe numérique et plus encore sur le site Web de Design Zine</p>
 							<a href="Gravure_laser/index.html" class="cta">
 								<button>Voir Plus</button>
 							</a>
@@ -264,7 +275,7 @@
 						<div class="imgs-section">
 							<h2 class="section-header">Équipement de Sécurité</h2>
 							<hr class="section-line">
-							<p class="section-info">Consultez nos Produits de Équipement de sécurité et plus encore sur le site Web de Design Zine  </p>
+							<p class="section-info">Consultez nos Produits de Équipement de sécurité et plus encore sur le site Web de Design Zine</p>
 							<a href="Prévention_de_risque_professionnel/index.html" class="cta">
 								<button>Voir Plus</button>
 							</a>
@@ -279,7 +290,7 @@
 						<div class="imgs-section">
 							<h2 class="section-header">Habillage Véhicule</h2>
 							<hr class="section-line">
-							<p class="section-info">Consultez nos Services de Habillage vehicle (Habillage Véhicule Ambulance Et Police, Habillage Véhicule Publicitaire, Habillage Véhicule Décoration) et plus encore sur le site Web de Design Zine  </p>
+							<p class="section-info">Consultez nos Services de Habillage vehicle (Habillage Véhicule Ambulance Et Police, Habillage Véhicule Publicitaire, Habillage Véhicule Décoration) et plus encore sur le site Web de Design Zine</p>
 							<a href="Habillage_véhicule/index.html" class="cta">
 								<button>Voir Plus</button>
 							</a>
@@ -315,181 +326,181 @@
 
 		</div>
 		<div id="products-container">
-			<h1 id="products-container-header">Nos Product</h1>
+			<h1 id="products-container-header">Nos Produits</h1>
 			<hr id="products-container-header-line">
-			<div id="product-section">
+			<div id="product-section" itemscope itemtype="https://schema.org/ItemList">
 
-				<div class="products" id="product-1" >
+				<div class="products" id="product-1" itemtype="https://schema.org/Product" itemscope>
 					<div class="product-content">
 						<img src="product-logo.png" alt="Design Zine logo" >
-						<h3>Signalisation Routiere</h3>
+						<h3 itemprop="name">Signalisation Routiere</h3>
 						<hr>
-						<a href="Signalisation_routiere/index.html">
+						<a itemprop="url" href="Signalisation_routiere/index.html">
 							<button>Voir Plus</button>
 						</a>
 					</div>
 				</div>
 
-				<div class="products" id="product-2">
+				<div class="products" id="product-2" itemtype="https://schema.org/Product" itemscope>
 					<div class="product-content">
 						<img src="product-logo.png" alt="Design Zine logo">
-						<h3>Panneaux Sécurité</h3>
+						<h3 itemprop="name" >Panneaux Sécurité</h3>
 						<hr>
-						<a href="Panneaux_sécurité/index.html">
+						<a itemprop="url" href="Panneaux_sécurité/index.html">
 							<button>Voir Plus</button>
 						</a>
 					</div>
 				</div>
 
-				<div class="products" id="product-3">
+				<div class="products" id="product-3" itemtype="https://schema.org/Product" itemscope>
 					<div class="product-content">
 						<img src="product-logo.png" alt="Design Zine logo">
-						<h3>Panneaux Publicitaire</h3>
+						<h3 itemprop="name">Panneaux Publicitaire</h3>
 						<hr>
-						<a href="Panneaux_publicitaire/index.html">
+						<a itemprop="url" href="Panneaux_publicitaire/index.html">
 							<button>Voir Plus</button>
 						</a>
 					</div>
 				</div>
 
-				<div class="products" id="product-4">
+				<div class="products" id="product-4" itemtype="https://schema.org/Product" itemscope>
 					<div class="product-content">
 						<img src="product-logo.png" alt="Design Zine logo">
-						<h3>Sérigraphie</h3>
+						<h3 itemprop="name">Sérigraphie</h3>
 						<hr>
-						<a href="Sérigraphie/index.html">
+						<a itemprop="url" href="Sérigraphie/index.html">
 							<button>Voir Plus</button>
 						</a>
 					</div>
 				</div>
 
-				<div class="products" id="product-5">
+				<div class="products" id="product-5" itemtype="https://schema.org/Product" itemscope>
 					<div class="product-content">
 						<img src="product-logo.png" alt="Design Zine logo">
-						<h3>Prévention de Risque Professionnel</h3>
+						<h3 itemprop="name">Prévention de Risque Professionnel</h3>
 						<hr>
-						<a href="Prévention_de_risque_professionnel/index.html">
+						<a itemprop="url" href="Prévention_de_risque_professionnel/index.html">
 							<button>Voir Plus</button>
 						</a>
 					</div>
 				</div>
 
-				<div class="products" id="product-6">
+				<div class="products" id="product-6" itemtype="https://schema.org/Product" itemscope>
 					<div class="product-content">
 						<img src="product-logo.png" alt="Design Zine logo">
-						<h3>Impression Numérique</h3>
+						<h3 itemprop="name">Impression Numérique</h3>
 						<hr>
-						<a href="Impression_numérique/index.html">
+						<a itemprop="url" href="Impression_numérique/index.html">
 							<button>Voir Plus</button>
 						</a>
 					</div>
 				</div>
 
-				<div class="products" id="product-7">
+				<div class="products" id="product-7" itemtype="https://schema.org/Product" itemscope>
 					<div class="product-content">
 						<img src="product-logo.png" alt="Design Zine logo">
-						<h3>Impression Offset</h3>
+						<h3 itemprop="name">Impression Offset</h3>
 						<hr>
-						<a href="Impression_offset/index.html">
+						<a itemprop="url" href="Impression_offset/index.html">
 							<button>Voir Plus</button>
 						</a>
 					</div>
 				</div>
 
-				<div class="products" id="product-8">
+				<div class="products" id="product-8" itemtype="https://schema.org/Product" itemscope>
 					<div class="product-content">
 						<img src="product-logo.png" alt="Design Zine logo">
-						<h3>Gravure Laser</h3>
+						<h3 itemprop="name">Gravure Laser</h3>
 						<hr>
-						<a href="Gravure_laser/index.html">
+						<a itemprop="url" href="Gravure_laser/index.html">
 							<button>Voir Plus</button>
 						</a>
 					</div>
 				</div>
 
-				<div class="products" id="product-9">
+				<div class="products" id="product-9" itemtype="https://schema.org/Product" itemscope>
 					<div class="product-content">
 						<img src="product-logo.png" alt="Design Zine logo">
-						<h3>Broderie</h3>
+						<h3 itemprop="name">Broderie</h3>
 						<hr>
-						<a href="Broderie/index.html">
+						<a itemprop="url" href="Broderie/index.html">
 							<button>Voir Plus</button>
 						</a>
 					</div>
 				</div>
 
-				<div class="products" id="product-10">
+				<div class="products" id="product-10" itemtype="https://schema.org/Product" itemscope>
 					<div class="product-content">
 						<img src="product-logo.png" alt="Design Zine logo">
-						<h3>Création Logo</h3>
+						<h3 itemprop="name">Création Logo</h3>
 						<hr>
-						<a href="Création_logo/index.html">
+						<a itemprop="url" href="Création_logo/index.html">
 							<button>Voir Plus</button>
 						</a>
 					</div>
 				</div>
 
-				<div class="products" id="product-11">
+				<div class="products" id="product-11" itemtype="https://schema.org/Product" itemscope>
 					<div class="product-content">
 						<img src="product-logo.png" alt="Design Zine logo">
-						<h3>Développement de Sites</h3>
+						<h3 itemprop="name">Développement de Sites</h3>
 						<hr>
-						<a href="Développement_de_sites/index.html">
+						<a itemprop="url" href="Développement_de_sites/index.html">
 							<button>Voir Plus</button>
 						</a>
 					</div>
 				</div>
 
-				<div class="products" id="product-12">
+				<div class="products" id="product-12" itemtype="https://schema.org/Product" itemscope>
 					<div class="product-content">
 						<img src="product-logo.png" alt="Design Zine logo">
-						<h3>Conception de Plan HSE</h3>
+						<h3 itemprop="name">Conception de Plan HSE</h3>
 						<hr>
-						<a href="Conception_de_plan_HSE/index.html">
+						<a itemprop="url" href="Conception_de_plan_HSE/index.html">
 							<button>Voir Plus</button>
 						</a>
 					</div>
 				</div>
 
-				<div class="products" id="product-13">
+				<div class="products" id="product-13" itemtype="https://schema.org/Product" itemscope>
 					<div class="product-content">
 						<img src="product-logo.png" alt="Design Zine logo">
-						<h3>Habillage Véhicule</h3>
+						<h3 itemprop="name">Habillage Véhicule</h3>
 						<hr>
-						<a href="Habillage_véhicule/index.html">
+						<a itemprop="url" href="Habillage_véhicule/index.html">
 							<button>Voir Plus</button>
 						</a>
 					</div>
 				</div>
 
-				<div class="products" id="product-14">
+				<div class="products" id="product-14" itemtype="https://schema.org/Product" itemscope>
 					<div class="product-content">
 						<img src="product-logo.png" alt="Design Zine logo">
-						<h3>Cadeaux Fin d'année</h3>
+						<h3 itemprop="name">Cadeaux Fin d'année</h3>
 						<hr>
-						<a href="Cadeaux_fin_année/index.html">
+						<a itemprop="url" href="Cadeaux_fin_année/index.html">
 							<button>Voir Plus</button>
 						</a>
 					</div>
 				</div>
 
-				<div class="products" id="product-15">
+				<div class="products" id="product-15" itemtype="https://schema.org/Product" itemscope>
 					<div class="product-content">
 						<img src="product-logo.png" alt="Design Zine logo">
-						<h3>Cadre Décoration</h3>
+						<h3 itemprop="name">Cadre Décoration</h3>
 						<hr>
-						<a href="Cadre_décoration/index.html">
+						<a itemprop="url" href="Cadre_décoration/index.html">
 							<button>Voir Plus</button>
 						</a>
 					</div>
 				</div>
 
-				<div class="products" id="product-16">
+				<div class="products" id="product-16" itemtype="https://schema.org/Product" itemscope>
 					<div class="product-content">
 						<img src="product-logo.png" alt="Design Zine logo">
-						<h3>Habillage Façade</h3>
+						<h3 itemprop="name">Habillage Façade</h3>
 						<hr>
-						<a href="Habillage_façade/index.html">
+						<a itemprop="url" href="Habillage_façade/index.html">
 							<button>Voir Plus</button>
 						</a>
 					</div>
@@ -503,47 +514,47 @@
 
 
 		<div id="clients-container">
-			<h2 id="clients-container-header">Nos Clients</h2>
+			<h1 id="clients-container-header">Nos Clients</h1>
 			<hr id="clients-container-header-line">
-			<div id="clients-section">
+			<div id="clients-section" itemtype="https://schema.org/customer" itemscope>
 
-				<div class="circle"><img src="client-1.png" alt="Tassili Airlines logo"></div>
+				<div class="circle" itemscope itemprop="organization" itemtype="https://schema.org/Organization"><img itemprop="image" src="client-1.png" alt="Tassili Airlines logo"></div>
 
-				<div class="circle"><img src="client-2.png" alt="Sonatrach logo"></div>
+				<div class="circle" itemscope itemprop="organization" itemtype="https://schema.org/Organization"><img itemprop="image" src="client-2.png" alt="Sonatrach logo"></div>
 
-				<div class="circle"><img src="client-3.png" alt="Naftal logo"></div>
+				<div class="circle" itemscope itemprop="organization" itemtype="https://schema.org/Organization"><img itemprop="image" src="client-3.png" alt="Naftal logo"></div>
 
-				<div class="circle"><img src="client-4.jpg" alt="Basp logo"></div>
+				<div class="circle" itemscope itemprop="organization" itemtype="https://schema.org/Organization"><img itemprop="image" src="client-4.jpg" alt="Basp logo"></div>
 
-				<div class="circle"><img src="client-5.jpg" alt="Enafor logo"></div>
+				<div class="circle" itemscope itemprop="organization" itemtype="https://schema.org/Organization"><img itemprop="image" src="client-5.jpg" alt="Enafor logo"></div>
 
-				<div class="circle"><img src="client-6.png" alt="Entp logo"></div>
+				<div class="circle" itemscope itemprop="organization" itemtype="https://schema.org/Organization"><img itemprop="image" src="client-6.png" alt="Entp logo"></div>
 
-				<div class="circle"><img src="client-7.png" alt="Ingco logo"></div>
+				<div class="circle" itemscope itemprop="organization" itemtype="https://schema.org/Organization"><img itemprop="image" src="client-7.png" alt="Ingco logo"></div>
 
-				<div class="circle"><img src="client-8.png" alt="Hesp logo"></div>
+				<div class="circle" itemscope itemprop="organization" itemtype="https://schema.org/Organization"><img itemprop="image" src="client-8.png" alt="Hesp logo"></div>
 
-				<div class="circle"><img src="client-9.jpg" alt="Bjsp logo"></div>
+				<div class="circle" itemscope itemprop="organization" itemtype="https://schema.org/Organization"><img itemprop="image" src="client-9.jpg" alt="Bjsp logo"></div>
 
-				<div class="circle"><img src="client-10.png" alt="Guedila logo"></div>
+				<div class="circle" itemscope itemprop="organization" itemtype="https://schema.org/Organization"><img itemprop="image" src="client-10.png" alt="Guedila logo"></div>
 
-				<div class="circle"><img src="client-11.png" alt="Enac logo"></div>
+				<div class="circle" itemscope itemprop="organization" itemtype="https://schema.org/Organization"><img itemprop="image" src="client-11.png" alt="Enac logo"></div>
 
-				<div class="circle"><img src="client-12.png" alt="Air Algerie logo"></div>
+				<div class="circle" itemscope itemprop="organization" itemtype="https://schema.org/Organization"><img itemprop="image" src="client-12.png" alt="Air Algerie logo"></div>
 
-				<div class="circle"><img src="client-13.png" alt="Redmed logo"></div>
+				<div class="circle" itemscope itemprop="organization" itemtype="https://schema.org/Organization"><img itemprop="image" src="client-13.png" alt="Redmed logo"></div>
 
-				<div class="circle"><img src="client-14.png" alt="Medilink logo"></div>
+				<div class="circle" itemscope itemprop="organization" itemtype="https://schema.org/Organization"><img itemprop="image" src="client-14.png" alt="Medilink logo"></div>
 				
-				<div class="circle"><img src="client-15.jpg" alt="Halliburton logo"></div>
+				<div class="circle" itemscope itemprop="organization" itemtype="https://schema.org/Organization"><img itemprop="image" src="client-15.jpg" alt="Halliburton logo"></div>
 
-				<div class="circle"><img src="client-16.png" alt="Petrofac logo"></div>
+				<div class="circle" itemscope itemprop="organization" itemtype="https://schema.org/Organization"><img itemprop="image" src="client-16.png" alt="Petrofac logo"></div>
 
-				<div class="circle"><img src="client-17.jpg" alt="GTP logo"></div>
+				<div class="circle" itemscope itemprop="organization" itemtype="https://schema.org/Organization"><img itemprop="image" src="client-17.jpg" alt="GTP logo"></div>
 
-				<div class="circle"><img src="client-18.png" alt="Air express logo"></div>
+				<div class="circle" itemscope itemprop="organization" itemtype="https://schema.org/Organization"><img itemprop="image" src="client-18.png" alt="Air express logo"></div>
 
-				<div class="circle"><img src="client-19.png" alt="Medilink logo"></div>
+				<div class="circle" itemscope itemprop="organization" itemtype="https://schema.org/Organization"><img itemprop="image" src="client-19.png" alt="Medilink logo"></div>
 
 				
 			</div>
@@ -557,20 +568,20 @@
 	<footer>
 
 		<div id="copyright">
-			<img src="footer-logo.png" id="logo-footer" alt="Design Zine logo">
+			<img src="footer-logo.png" id="logo-footer" alt="Design Zine logo" itemprop="logo">
 			<p> Aucune Violation du Droit d'Auteur N'est Prévue © Design Zine 1995 - 2022</p>
 		</div>
 
-		<div id="location">
+		<div id="location" itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
 			<div id="location-header">
 				
-				<h2>Nos Cordonnées</h2>
+				<h2>Nos Coordonnées</h2>
 				<img src="location.png" alt="location marker icon">
 			</div>
 			<ul>
-				<li>Cite 442 , Hassi Messaoued</li>
-				<li>El Hamiz Dar El Beida , Alger</li>
-				<li>Cite Belghanem , Ghardaia</li>
+				<li><span itemprop="streetAddress">Cite 442</span> , <span itemprop="addressLocality">Hassi Messaoued</span></li>
+				<li><span itemprop="addressLocality">El Hamiz Dar El Beida , Alger</span></li>
+				<li><span itemprop="streetAddress">Cite Belghanem</span> , <span itemprop="addressLocality">Ghardaia</span></li>
 			</ul>
 		</div>
 		<hr id="footer-line">
@@ -582,23 +593,23 @@
 			</div>
 			<ul>
 				<li class="number-type">Réception</li>
-				<li>06 87 07 42 6</li>
-				<li>029 79 94 29</li>
+				<li itemprop="telephone">06 87 07 42 6</li>
+				<li itemprop="faxNumber">029 79 94 29</li>
 				
 				<li class="number-type">Assistance commerciale</li>
 				
-				<li>+213 73 26 44 90</li>
-				<li>05 41 13 25 86</li>
+				<li itemprop="telephone">+213 73 26 44 90</li>
+				<li itemprop="telephone">05 41 13 25 86</li>
 				
 				<li class="number-type">Assistance technique</li>
-				<li>06 67 46 31 36</li>
+				<li itemprop="telephone">06 67 46 31 36</li>
 			</ul>
 		</div>
 	</footer>
 
 	
-	<script src="main_page.js"></script>
-	<script src="script.js"></script>
+	<script defer src="main_page.min.js"></script>
+	<script defer src="script.min.js"></script>
 
 	
 

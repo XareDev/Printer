@@ -42,14 +42,43 @@ section {
 }
 
 #about-us-text {
-	width: 65%;
-	 font-size: 18px;
-	 line-height: 1.5em;
-	 color: #282828;
+    border: 1px solid black;
+    padding: 16px;
+    width: 55%;
+    font-size: 18px;
+    line-height: 1.5em;
+    color: #282828;
+    font-weight: 500;
+    border-radius: 10px;
 }
 
 #about-us-logo {
 	margin-bottom: 20px;
-	width: 120px;
-	height: 120px;
+	width: 96px;
+	height: 96px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+	#about-us-text {
+		padding: 10px;
+		width: 90%;
+		font-size: 10px;
+	}
+
+	#about-us-logo {
+		margin-bottom: 10px;
+		width: 72px;
+		height: 72px;
+	}
+
+	#about-container-header-line {
+		width: 200px;
+		margin-left: 20px;
+	}
+
+	#about-container-header {
+		font-size: 22px;
+		color: #383434;
+		margin-left: 20px;
+	}
 }
