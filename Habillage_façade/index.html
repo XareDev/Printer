@@ -3,24 +3,26 @@
 <head>
 	<meta charset="utf-8">
 	<link rel="shortcut icon" type="image/png" href="../fav-logo.png">
-	<link rel="stylesheet" href="../style.css">
-	<link rel="stylesheet" href="product_type_page.css">
-	<link rel="alternate" hreflang="ar" href="../index.html">
-	<link rel="alternate" hreflang="fr" href="../index.html">
-	<link rel="alternate" hreflang="en" href="../en/index.html">
+
+	<link rel="stylesheet" disabled class="css" href="product_type_page.min.css">
+	<link rel="alternate" hreflang="en" href="../en/Facade_cladding/index.html">
 	<meta name="description" content="Consultez nos Services de Habillage Façade et plus encore sur Design Zine, le 1er imprimeur à Hassi Messaoud , Alger">
 
 
-	<title>Design Zine | Habillage Façade</title>	
+	<title>Design Zine | Habillage Façade</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" disabled class="css" href="../style.min.css">
+	
 </head>
 <body>
-	<header id="header">
-
+	<header>
 		<a href="../index.html">
 			<img src="../logo.png" alt="Design Zine logo" id="logo">
 		</a>
-
-		<nav>
+		<button class="mobile-nav-toggle" data-expanded="false">
+			<span class="sr-only">Menu</span>
+		</button>
+		<nav data-visible="false">
 			<ul class="nav_links">
 
 				<li >
@@ -137,7 +139,7 @@
 		<div id="location">
 			<div id="location-header">
 				
-				<h3>Nos Cordonnées</h3>
+				<h3>Nos Coordonnées</h3>
 				<img src="../location.png" alt="location marker icon">
 			</div>
 			<ul>
@@ -169,8 +171,8 @@
 		</div>
 	</footer>
 
-	<script src="../script.js"></script>
-	<script src="product_type_page.js"></script>
+	<script defer src="../script.min.js"></script>
+	<script defer src="product_type_page.min.js"></script>
 
 	
 
